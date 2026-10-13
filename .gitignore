@@ -1,0 +1,12 @@
+# Local credentials
+**/.env
+**/.env.*
+
+# Dependencies and generated builds
+**/node_modules/
+**/dist/
+backend/target/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
