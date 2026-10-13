@@ -1,12 +1,19 @@
 # Local credentials
 **/.env
 **/.env.*
+**/.env.local
 
 # Dependencies and generated builds
 **/node_modules/
 **/dist/
+**/target/
+*.class
+*.jar
 backend/target/
 
-# Editor and operating-system files
+# IDE and OS
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
+*.log
